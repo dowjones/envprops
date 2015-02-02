@@ -1,0 +1,8 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Example express app",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}

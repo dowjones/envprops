@@ -1,0 +1,11 @@
+{
+  "port": {
+    "development": 3000,
+    "all": "$ENV:PORT"
+  },
+
+  "name": {
+    "development": "development app",
+    "production": "production app"
+  }
+}

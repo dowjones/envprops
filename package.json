@@ -1,0 +1,24 @@
+{
+  "name": "envprops",
+  "version": "1.0.0",
+  "description": "Environment-specific property configuration library.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "sh -c 'npm run test-cover && istanbul check-coverage --statements 70 --functions 70 --branches 70 --lines 70'",
+    "test-cover": "istanbul cover _mocha -- -r should --recursive",
+    "test-watch": "mocha -G -r should --recursive -w -R min"
+  },
+  "keywords": [
+    "config",
+    "environment",
+    "properties",
+    "envprops"
+  ],
+  "author": "Yuriy Nemtsov <nemtsov@gmail.com> (http://yuriynemtsov.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "should": "^4.6.3"
+  }
+}
