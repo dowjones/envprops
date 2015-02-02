@@ -3,7 +3,7 @@
 The purpose of this library is to store and retrieve
 environment-specific configuration.
 
-The main distinguishing feature of this library is the way one sets the
+The main distinguishing feature is the way one sets the
 properties. In many other libraries you provide environments,
 which contain keys that in turn contain values:
 
