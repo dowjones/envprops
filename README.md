@@ -112,9 +112,9 @@ for all environments:
 
 ```javascript
 {
-  key: {
-    development: '1.0.0',
-    all: '2.0.0'
+  "key": {
+    "development": "v1",
+    "all": "v2"
   }
 }
 ```
@@ -126,9 +126,9 @@ list of environments:
 
 ```javascript
 {
-  key: {
-    'development,staging': '1.0.0',
-    production: '2.0.0'
+  "key": {
+    "development,staging": 1,
+    "production": 2
   }
 }
 ```
@@ -142,9 +142,9 @@ Here's an example:
 
 ```javascript
 {
-  key: {
-    'prod.dc1.eu: 'v2',
-    'prod.*.eu': 'v3'
+  "key": {
+    "prod.dc1.eu": "v2",
+    "prod.*.eu": "v3"
   }
 }
 ```
