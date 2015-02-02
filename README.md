@@ -136,8 +136,28 @@ list of environments:
 ## Environment segments and globs
 
 Another feature that is supported by this library is environment
-segments.
+segments. Segmenting the environment may be useful if multiple
+keys make up an environment (e.g., region and data-center).
+Here's an example:
 
+```javascript
+{
+  key: {
+    'prod.dc1.eu: 'v2',
+    'prod.*.eu: 'v3'
+  }
+}
+```
+
+`NODE_ENV = prod.dc1.eu`
+```javascript
+props.get('key'); // 'v2'
+```
+
+`NODE_ENV = prod.dc7.eu`
+```javascript
+props.get('key'); // 'v3'
+```
 
 ## Provide your own environment
 ```javascript
