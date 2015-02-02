@@ -144,7 +144,7 @@ Here's an example:
 {
   key: {
     'prod.dc1.eu: 'v2',
-    'prod.*.eu: 'v3'
+    'prod.*.eu': 'v3'
   }
 }
 ```
