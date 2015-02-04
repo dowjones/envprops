@@ -1,12 +1,12 @@
 var should = require('should'),
-  PropertyService = require('../lib/PropertyService');
+  PropertyService = require('../lib');
 
 describe('PropertyService', function () {
   var svc, envFake;
 
   beforeEach(function () {
     envFake = 'local';
-    svc = new PropertyService(envFake);
+    svc = PropertyService(envFake);
   });
 
   describe('scope', function () {
@@ -26,6 +26,14 @@ describe('PropertyService', function () {
 
       var p1a = svc.get('nsp');
       p1a.get('n1').should.equal('v1');
+    });
+  });
+
+  describe('static get/create use the global', function () {
+    it('should use the global svc to get / create', function () {
+      // only checking that the returned is a Properties
+      PropertyService.get('n1').setMany.should.be.type('function');
+      PropertyService.create('n1').setMany.should.be.type('function');
     });
   });
 

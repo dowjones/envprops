@@ -1,6 +1,6 @@
 {
   "name": "envprops",
-  "version": "1.0.3",
+  "version": "2.0.1",
   "description": "Environment-specific property configuration library.",
   "main": "lib/index.js",
   "scripts": {

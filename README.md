@@ -161,8 +161,8 @@ props.get('key'); // 'v3'
 
 ## Provide your own environment
 ```javascript
-var PropertyService = require('envprops').PropertyService,
-  service = new PropertyService('production');
+var envprops = require('envprops'),
+  props = envprops('production');
 ```
 
 
