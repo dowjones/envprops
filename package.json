@@ -1,6 +1,6 @@
 {
   "name": "envprops",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Environment-specific property configuration library.",
   "main": "lib/index.js",
   "scripts": {
@@ -16,6 +16,10 @@
   ],
   "author": "Yuriy Nemtsov <nemtsov@gmail.com> (http://yuriynemtsov.com/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/areusjs/envprops.git"
+  },
   "devDependencies": {
     "istanbul": "^0.3.5",
     "mocha": "^2.1.0",
