@@ -1,4 +1,4 @@
-# envprops [![Build Status](https://secure.travis-ci.org/areusjs/envprops.png)](http://travis-ci.org/areusjs/envprops) [![NPM version](https://badge.fury.io/js/envprops.svg)](http://badge.fury.io/js/envprops)
+# envprops [![Build Status](https://secure.travis-ci.org/dowjones/envprops.png)](http://travis-ci.org/dowjones/envprops) [![NPM version](https://badge.fury.io/js/envprops.svg)](http://badge.fury.io/js/envprops)
 
 The purpose of this library is to store and retrieve
 environment-specific configuration.
