@@ -172,7 +172,7 @@ var envprops = require('envprops'),
 - [Lee Cookson](https://github.com/leecookson)
 - [Dominique Boucher](https://github.com/Solognot)
 - [Hrusikesh Panda](https://github.com/mrchief)
-- Doug Reiter
+- [Doug Reiter](https://github.com/ddrinf)
 - [Christopher Montgomery](https://github.com/chmontgomery)
 - [Robert DiNicolas](https://github.com/bstar)
 
