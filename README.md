@@ -168,13 +168,13 @@ var envprops = require('envprops'),
 
 ## Contributors:
 
-- Yuriy Nemtsov
-- Lee Cookson
-- Dominique Boucher
-- Hrusikesh Panda
-- Doug Reiter
-- Christopher Montgomery
-- Robert DiNicolas
+- [Yuriy Nemtsov](https://github.com/nemtsov)
+- [Lee Cookson](https://github.com/leecookson)
+- [Dominique Boucher](https://github.com/Solognot)
+- [Hrusikesh Panda](https://github.com/mrchief)
+- [Doug Reiter](https://github.com/ddrinf)
+- [Christopher Montgomery](https://github.com/chmontgomery)
+- [Robert DiNicolas](https://github.com/bstar)
 
 ## License
 
