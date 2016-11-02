@@ -165,6 +165,7 @@ var envprops = require('envprops'),
   props = envprops('production');
 ```
 
+In addition, since NODE_ENV is often used by other libraries with a different meaning and set of values, you can use NODE_ENV_APP instead to control this library.
 
 ## Contributors:
 
